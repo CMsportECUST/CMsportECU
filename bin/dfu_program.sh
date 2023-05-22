@@ -1,1 +1,1 @@
-java -jar console/rusefi_console.jar dfu $1
+java -jar console/CMsport_ECU_console.jar dfu $1

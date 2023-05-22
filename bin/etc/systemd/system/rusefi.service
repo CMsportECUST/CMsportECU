@@ -1,9 +1,9 @@
 #
-# sudo systemctl enable rusefi
+# sudo systemctl enable CMsport_ECU
 #
 
 [Unit]
-Description=rusEFI systemd
+Description=CMsport_ECU systemd
 
 [Service]
 ExecStart=/rw/startup_root.sh

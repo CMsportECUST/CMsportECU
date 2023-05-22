@@ -1,1 +1,1 @@
-java -jar console/rusefi_console.jar print_vehicle_token
+java -jar console/CMsport_ECU_console.jar print_vehicle_token

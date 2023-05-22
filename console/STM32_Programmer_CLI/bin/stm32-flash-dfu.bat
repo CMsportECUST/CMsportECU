@@ -1,1 +1,1 @@
-STM32_Programmer_CLI.exe -c port=usb1 -w ../../../rusefi.bin 0x08000000 --verify --start 0x08000000
+STM32_Programmer_CLI.exe -c port=usb1 -w ../../../CMsport_ECU.bin 0x08000000 --verify --start 0x08000000

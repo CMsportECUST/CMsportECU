@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# switch from one kind of bundle to another, for instance from microRusEFI to Hellen72
+# switch from one kind of bundle to another, for instance from microCMsport_ECU to Hellen72
 #
 
 if [ -z "$1" ]; then
@@ -15,11 +15,11 @@ CURRENT=${CURRENT:-/}
 CURRENT_BRANCH=$(echo "$CURRENT" | cut -d '.' -f 2)
 CURRENT_BUNDLE=$(echo "$CURRENT" | cut -d '.' -f 3)
 cd ..
-mv "rusefi.${CURRENT_BRANCH}.${CURRENT_BUNDLE}" "rusefi.${CURRENT_BRANCH}.${BUNDLE}"
-cd "rusefi.${CURRENT_BRANCH}.${BUNDLE}"
+mv "CMsport_ECU.${CURRENT_BRANCH}.${CURRENT_BUNDLE}" "CMsport_ECU.${CURRENT_BRANCH}.${BUNDLE}"
+cd "CMsport_ECU.${CURRENT_BRANCH}.${BUNDLE}"
 
-rm -rf rusefi*bin
-rm -rf rusefi*hex
-rm -rf rusefi*dfu
-rm -rf rusefi*ini
+rm -rf CMsport_ECU*bin
+rm -rf CMsport_ECU*hex
+rm -rf CMsport_ECU*dfu
+rm -rf CMsport_ECU*ini
 bash

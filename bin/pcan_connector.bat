@@ -1,3 +1,3 @@
 
 cd ../console
-java -jar rusefi_console.jar pcan_connector
+java -jar CMsport_ECU_console.jar pcan_connector
