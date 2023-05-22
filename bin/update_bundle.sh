@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd console
-java -jar CMsport_ECU_autoupdate.jar version
+java -jar CMsportECU_autoupdate.jar version
 
-# https://github.com/CMsport_ECU/CMsport_ECU/issues/2601
+# https://github.com/CMsportECU/CMsportECU/issues/2601
 chmod +x ../bin/*.sh

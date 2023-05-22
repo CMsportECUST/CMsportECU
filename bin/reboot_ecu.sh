@@ -1,1 +1,1 @@
-java -jar console/CMsport_ECU_console.jar reboot_ecu
+java -jar console/CMsportECU_console.jar reboot_ecu

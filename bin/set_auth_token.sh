@@ -1,1 +1,1 @@
-java -jar console/CMsport_ECU_console.jar set_auth_token $1
+java -jar console/CMsportECU_console.jar set_auth_token $1

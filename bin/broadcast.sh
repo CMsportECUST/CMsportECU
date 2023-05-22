@@ -1,12 +1,12 @@
 #!/bin/bash
 #
 # broadcast.sh
-# this file is part of CMsport_ECU
+# this file is part of CMsportECU
 #
 while true
 do
  echo Starting network_connector
- java -jar console/CMsport_ECU_console.jar network_connector
+ java -jar console/CMsportECU_console.jar network_connector
  exit_status=$?
  echo Exit code: ${exit_status}
  # in java code that's UPDATE_SBC_EXIT_CODE magic number

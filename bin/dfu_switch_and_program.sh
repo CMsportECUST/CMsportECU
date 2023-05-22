@@ -7,5 +7,5 @@ then
       exit 1
 fi
 echo Found ${dfu_file}
-java -jar console/CMsport_ECU_console.jar reboot_dfu
-java -jar console/CMsport_ECU_console.jar dfu ${dfu_file}
+java -jar console/CMsportECU_console.jar reboot_dfu
+java -jar console/CMsportECU_console.jar dfu ${dfu_file}

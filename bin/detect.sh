@@ -1,1 +1,1 @@
-java -jar console/CMsport_ECU_console.jar detect
+java -jar console/CMsportECU_console.jar detect
